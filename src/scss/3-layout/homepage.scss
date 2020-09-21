@@ -66,10 +66,17 @@
 }
 
 @include mobile {
-    .contentContainer .cardWrapper {
-        width: 100%;
-        height: auto;
-    }
+    .contentContainer{
+        .cardWrapper {
+            width: 45%;
+            height: auto;
+        }
+        .cardFooter{
+            p{
+                font-size: 13px;
+            }
+        }
+    } 
     .mobTopFilter {
         display: inline-flex;
         width: 100%;
