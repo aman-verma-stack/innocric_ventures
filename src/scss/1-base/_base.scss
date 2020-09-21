@@ -1,0 +1,35 @@
+@import "../4-variables/variables";
+@import "../4-variables/mixins";
+
+
+p, li, a{
+    font-size: $default_font;
+}
+
+.first_heading{
+    font-size: $first_heading;
+}
+
+.second_heading{
+    font-size: $second_heading;
+}
+
+.third_heading{
+    font-size: $third_heading;
+}
+
+
+.actual_price{
+    text-decoration: line-through;
+    padding: 10px;
+}
+
+.discount{
+    color: green;
+}
+
+@include mobile{
+    .baseLayout{
+        padding: 0px 0px 0px 0px;
+    }
+}

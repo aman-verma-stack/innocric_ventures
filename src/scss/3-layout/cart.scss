@@ -1,0 +1,224 @@
+@import "../1-base/base";
+
+.priceBox {
+    border: 1px solid #ccc;
+    margin: 20px 0px 30px 0px;
+    background: #fff;
+    h2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #555;
+        border-bottom: 1px solid #ccc;
+        padding: 8px;
+        text-transform: uppercase;
+        margin: 0px;
+    }
+    .priceBoxBody {
+        padding: 18px 8px 18px 8px;
+        p {
+            margin: 0px;
+            padding: 5px;
+        }
+    }
+    h3 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #555;
+        border-top: 1px solid #ccc;
+        padding: 8px;
+        text-transform: uppercase;
+        margin: 0px;
+    }
+}
+
+.cartCard {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px 15px 28px 15px;
+    margin: 19px;
+    img {
+        width: 100%;
+        height: 120px;
+    }
+    .cartDetails {
+        p {
+            font-weight: 600;
+        }
+    }
+    .removeButton {
+        text-transform: uppercase;
+        margin: 30px 0px;
+        font-weight: 600;
+    }
+    .addButton {
+        margin: 30px auto;
+        ul {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            li {
+                list-style: none;
+                float: left;
+                padding: 0 10px 0px 10px;
+                input {
+                    width: 39px;
+                    text-align: center;
+                }
+                &:first-child {
+                    border: 1px solid #333;
+                    width: 40px;
+                    height: 40px;
+                    padding: 0px;
+                    text-align: center;
+                    border-radius: 100%;
+                    font-size: 23px;
+                    cursor: pointer;
+                }
+                &:last-child {
+                    border: 1px solid #333;
+                    width: 40px;
+                    height: 40px;
+                    padding: 2px;
+                    text-align: center;
+                    border-radius: 100%;
+                    font-size: 23px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@include mobile {
+    .mobViewWrapper {
+        padding: 20px 10px  10px 10px;
+        border: 1px solid #ccc;
+        margin: 6px;
+        background: #fff;
+        .cartDetails {
+            p {
+                font-size: 14px;
+                margin: 0px 0px 5px 0px;
+            }
+        }
+        .addButton{
+            margin: 10px auto;
+        }
+        .removeButton{
+            text-transform: uppercase;
+            margin: 8px 0px;
+            font-weight: 600;
+            font-size: 17px;
+        }
+    }
+    .cartCard{
+        padding: 0px;
+        margin: 12px;
+        border: none;
+        background: none;
+    }
+    .priceBox{
+        margin: 20px 20px 30px 20px;
+    }
+}
+
+
+@include mobile_landscape {
+    .mobViewWrapper {
+        padding: 20px 10px  10px 10px;
+        border: 1px solid #ccc;
+        margin: 6px;
+        background: #fff;
+        .cartDetails {
+            p {
+                font-size: 14px;
+                margin: 0px 0px 5px 0px;
+            }
+        }
+        .addButton{
+            margin: 10px auto;
+        }
+        .removeButton{
+            text-transform: uppercase;
+            margin: 8px 0px;
+            font-weight: 600;
+            font-size: 17px;
+        }
+    }
+    .cartCard{
+        padding: 0px;
+        margin: 12px;
+        border: none;
+        background: none;
+    }
+    .priceBox{
+        margin: 20px 20px 30px 20px;
+    }
+}
+
+@include tablet {
+    .mobViewWrapper {
+        padding: 20px 10px  10px 10px;
+        border: 1px solid #ccc;
+        margin: 6px;
+        background: #fff;
+        .cartDetails {
+            p {
+                font-size: 14px;
+                margin: 0px 0px 5px 0px;
+            }
+        }
+        .addButton{
+            margin: 10px auto;
+        }
+        .removeButton{
+            text-transform: uppercase;
+            margin: 8px 0px;
+            font-weight: 600;
+            font-size: 17px;
+        }
+    }
+    .cartCard{
+        padding: 10px;
+        margin: 12px;
+        border: 1px solid #ccc;
+    }
+    .priceBox{
+        margin: 20px 14px 30px 14px;
+    }
+}
+
+
+@include tablet_landscape {
+    .mobViewWrapper {
+        padding: 20px 10px  10px 10px;
+        border: 1px solid #ccc;
+        margin: 6px;
+        background: #fff;
+        .cartDetails {
+            p {
+                font-size: 14px;
+                margin: 0px 0px 5px 0px;
+            }
+        }
+        .addButton{
+            margin: 10px auto;
+        }
+        .removeButton{
+            text-transform: uppercase;
+            margin: 8px 0px;
+            font-weight: 600;
+            font-size: 17px;
+        }
+    }
+    .cartCard{
+        padding: 10px;
+        margin: 12px;
+        border: 1px solid #ccc;
+        background: #fff;
+    }
+    .priceBox{
+        margin: 20px 14px 30px 14px;
+    }
+}
+

@@ -1,0 +1,18 @@
+.navbarContainer{
+    background: #0b719a;
+    .navLeftContainer{
+        padding: 10px;
+        svg{
+            color: #DAA520;
+            font-size: 25px;
+        }
+    }
+    .navRightContainer{
+        text-align: right;
+        padding: 5px;
+        svg{
+            margin: 10px 12px 6px 2px;
+            color: #fff;
+        }
+    }
+}
